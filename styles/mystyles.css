@@ -9,6 +9,7 @@
 
 .btn:hover {
     background-color: antiquewhite;
+    font-size: larger;
 }
 
 .footer a {
@@ -17,3 +18,10 @@
     font-size: small;
 }
 
+.body {
+    background-color: antiquewhite;
+}
+
+.cta {
+    background-color: rgba(80, 38, 112, 0.9);
+}
