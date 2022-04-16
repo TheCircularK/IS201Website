@@ -1,0 +1,19 @@
+.m-0 {
+    color: lightblue;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: lightblue;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+}
+
+.footer a {
+    color: darkgray;
+    font-variant: small-caps;
+    font-size: small;
+}
+

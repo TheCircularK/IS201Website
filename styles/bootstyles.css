@@ -1,0 +1,80 @@
+body {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    width: 100%;
+  }
+
+/* Put this around everything but the sidebar */
+.pageContent {
+  width: 100%;
+  flex-grow: 1;
+}
+
+/* That cool thing up top */
+.pageTitle {
+  background-attachment: fixed;
+  font-size: x-large;
+  background: url("mountains.jpg");
+  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: -8px;
+  margin-left: -8px;
+  color: whitesmoke;
+  width: 100%;
+}
+
+/* This footer was made for walkin' */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  min-height: 50px;
+  font-size: x-large;
+  background-color: gray;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: -8px;
+  margin-left: 0px;
+  color: whitesmoke;
+  width: 100%;
+}
+
+.pageTitle h1 {
+  padding-left: 25px;
+}
+
+/* Main text area */
+.main {
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-bottom: 75px;
+}
+
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(230, 230, 230);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Just resume boxes */
+.box {
+  display: block;
+  width: 90%;
+  box-align: center;
+  height: 50%;
+  background-color: rgba(75, 158, 181, 0.745);
+  margin: 5px;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 2px;
+}
+
+.caption {
+  font-size: 20;
+  padding: 10px 30px;
+  color: black;
+}
